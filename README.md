@@ -1,12 +1,17 @@
 ## Setup
 
-This was `https://linuxhint.com/install_docker_raspberry_pi-2/` used as a guide to installing Docker on the Pi.
+This `https://linuxhint.com/install_docker_raspberry_pi-2/` was used as a guide to installing Docker on the Pi.
 
 After that, a guide to create a local NAS network `https://uk.pcmag.com/network-attached-storage/124258/how-to-turn-a-raspberry-pi-into-a-nas-for-whole-home-file-sharing` You will need to symlink the directory on your machine.
 
 Then:
 Installed php
+
 Installed composer
+
+Installed git - `sudo apt install git`
+> Another guide on how to config *git globally* on the Pi `https://linuxize.com/post/how-to-install-git-on-raspberry-pi/`
+
 Installed any missing lib/dependencies php requires (quick google as I can’t remember what I did)
 All of these commands can be find with a quick google, as too much to really document.
 
